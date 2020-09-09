@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0px;
+    
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+    margin: 0 14px;
+    font-family: monospace;
+    padding-right: 40px;
+}
+#logo img{
+    height: 42px;
+}
+
+#navbar{
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 18px 4px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+ text-decoration: none;
+ padding: 12px 20px;
+ color:white;
+ font-size: 20px;
+}
+#navbar li a:hover{
+    color:darkgreen;
+}
+body::before{
+    content: '';
+    width:100%;
+    top:0px;
+    position: absolute;
+    background: url('../static/wallpaper4.jpg') no-repeat center center ;
+    height:205vh;
+    z-index: -1;
+    opacity: 0.8;
+}
+h1{
+    text-align: center;
+    margin:12px 0px;
+    font-family: cursive;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 7px;
+    outline: none;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+#footer{
+    margin-top: 55px;
+    height: 60px;
+    background-color: #21180d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: monospace;
+}
+.btn{
+    margin: 10px 29px;
+    padding: 12px 21px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    background: crimson;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    background-color: burlywood;
+}
+.btn:active{
+    color:green
+}
+textarea{
+    resize: none;
+}

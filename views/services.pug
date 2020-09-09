@@ -1,0 +1,28 @@
+extends base.pug
+
+block scripts
+    script(src = '../static/index.js')
+
+block style
+    style
+        include ../static/services.css
+
+block content
+    div.container
+        h1 Services Offered:
+        ul.container-items
+            li 
+                h2 Training
+                ol.training
+                    li XYZ Dance
+                    li PQR Dance
+                    li PQR Dance
+                    li PQR Dance
+                    li PQR Dance
+                    li PQR Dance
+            li 
+                h2 Events
+                ol.training
+                    li XYZ Event
+                    li PQR Event
+                    li PQR Event

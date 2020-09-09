@@ -1,0 +1,58 @@
+//index.png 
+doctype html
+html
+  head
+    title Mittal's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src = '../static/logo11.jpg')
+                | Mittal
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Contact Us]
+            li #[a(href='/') Services]
+            li #[a(href='/') Class Info]
+
+    section#introSection
+        div Welcome to Mittal's Dance Academy
+        div.small Eat Sleep Dance Repeat 
+    section#missionSection
+        h2 Our Mission  
+        div.miss
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src = '../static/card11.png')
+                    div.card-content
+                        p Experience dance perfection in every aspects
+            div.card
+                h3 Dance the way u like
+                div.card-box
+                    div.card-img
+                        img(src = '../static/card11.png')
+                    div.card-content
+                        p Dancing is an art in the way u find it
+            div.card
+                h3 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src = '../static/card11.png')
+                    div.card-content
+                        p Best class faculties 
+    section#sponserSection
+        h2 Our Sponsers
+        div#sponsers
+            img(src="../static/sponser1.png", alt="Sponser Image",class='spImage')
+            img(src="../static/sponser2.png", alt="Sponser Image",class='spImage')
+            img(src="../static/sponser3.png", alt="Sponser Image",class='spImage')
+            img(src="../static/sponser4.png", alt="Sponser Image",class='spImage')
+
+    footer#footer
+        | Copyright &copy; 2020 mittaldanceacademy | All rights reserved
+    script
+      include ../static/index.js

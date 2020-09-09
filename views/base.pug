@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title  #{title}
+    block style
+    block scripts
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src = '../static/logo11.jpg')
+                | Mittal
+            li #[a(href='/') Home]
+            li #[a(href='/about') About]
+            li #[a(href='/contact') Contact Us]
+            li #[a(href='/services') Services]
+            li #[a(href='/classinfo') Class Info]
+    
+    block content
+    
+    footer#footer
+        | Copyright &copy; 2020 mittaldanceacademy | All rights reserved
