@@ -5,5 +5,14 @@
 # Page to post updates
 ![about](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screenshot%20(10).png)
 
+> the administrator can post the updates dynamically
+
 # Page to post queries
-![query] (https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screenshot%20(11).png)
+![query](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screenshot%20(11).png)
+
+> these queries are saved in mongodb database which administrator can see afterwards
+
+# Page to recieve class timings from dance club
+![updates](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screenshot%20(13).png)
+
+> the administrator can post the updates dynamically
