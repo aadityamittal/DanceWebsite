@@ -8,7 +8,7 @@
 > the administrator can post the updates dynamically
 
 # Page to post queries
-![query](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screenshot%20(11).png)
+![query](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screen%20Shot%2012-4-2021%20at%204.27%20PM.png)
 
 > these queries are saved in mongodb database which administrator can see afterwards
 
@@ -24,6 +24,5 @@
 
 ![updates](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screen%20Shot%2012-4-2021%20at%204.14%20PM.png)
 ![updates](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screen%20Shot%2012-4-2021%20at%204.15%20PM%20-%202.png)
-![updates](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screen%20Shot%2012-4-2021%20at%204.15%20PM.png)
+![updates](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screen%20Shot%2012-4-2021%20at%204.26%20PM.png)
 ![updates](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screen%20Shot%2012-4-2021%20at%204.16%20PM.png)
-![updates](https://github.com/aadityamittal/DanceWebsite/blob/master/website_pics/Screen%20Shot%2012-4-2021%20at%204.15%20PM.png)
